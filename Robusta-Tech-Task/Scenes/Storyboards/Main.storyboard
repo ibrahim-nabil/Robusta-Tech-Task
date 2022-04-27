@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="m7O-ax-oAI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="Afp-rm-YWS">
+            <objects>
+                <viewController id="WJV-eN-ZXh" customClass="HomeViewController" customModule="RobustaTechTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="W5j-lv-o3Q"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dKY-NI-IIn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918.84057971014499" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9fq-yg-Z9L">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="m7O-ax-oAI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XIC-b3-IVa">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WJV-eN-ZXh" kind="relationship" relationship="rootViewController" id="hdc-cA-q3A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnq-gd-JN3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="79.6875"/>
+        </scene>
+    </scenes>
+</document>
