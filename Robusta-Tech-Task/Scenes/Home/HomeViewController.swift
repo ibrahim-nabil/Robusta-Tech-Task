@@ -62,8 +62,9 @@ extension HomeViewController: UITableViewDataSource {
 //MARK:- UITableViewDelegate
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-
+        let args = presenter.repositoriesData(at: indexPath)
+        let repositoriesVC: RepositoriesVC = Resolver.resolve(args: args)
+        self.presentVC(repositoriesVC)
     }
 }
 
@@ -79,6 +80,10 @@ extension HomeViewController: UISearchBarDelegate {
             presenter.filterdRepo = presenter.repositories
             tableView.reloadData()
         }
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
     }
 }
 

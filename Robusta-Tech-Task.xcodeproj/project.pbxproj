@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		E2FD1556281973BD00790110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1555281973BD00790110 /* AppDelegate.swift */; };
 		E2FD1558281973BD00790110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1557281973BD00790110 /* SceneDelegate.swift */; };
-		E2FD155A281973BD00790110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1559281973BD00790110 /* ViewController.swift */; };
-		E2FD155D281973BD00790110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD155B281973BD00790110 /* Main.storyboard */; };
 		E2FD155F281973BF00790110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD155E281973BF00790110 /* Assets.xcassets */; };
 		E2FD1562281973BF00790110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD1560281973BF00790110 /* LaunchScreen.storyboard */; };
 		E2FD156D281973C000790110 /* Robusta_Tech_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */; };
@@ -39,6 +37,10 @@
 		E2FD15C528197B2800790110 /* HomeContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C428197B2800790110 /* HomeContainers.swift */; };
 		E2FD15C728197B3100790110 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C628197B3100790110 /* Resolver.swift */; };
 		E2FD15C928197B3C00790110 /* Resolver+Registering.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C828197B3C00790110 /* Resolver+Registering.swift */; };
+		E2FD15CC28197C7F00790110 /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15CB28197C7F00790110 /* RepositoriesPresenter.swift */; };
+		E2FD15CE28197C8600790110 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15CD28197C8600790110 /* RepositoriesVC.swift */; };
+		E2FD15D028197C8C00790110 /* RepositoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2FD15CF28197C8C00790110 /* RepositoriesVC.xib */; };
+		E2FD15D428197D0B00790110 /* ReposContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15D328197D0B00790110 /* ReposContainers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +64,6 @@
 		E2FD1552281973BD00790110 /* Robusta-Tech-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robusta-Tech-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FD1555281973BD00790110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FD1557281973BD00790110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2FD1559281973BD00790110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2FD155C281973BD00790110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2FD155E281973BF00790110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2FD1561281973BF00790110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FD1563281973BF00790110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +95,10 @@
 		E2FD15C428197B2800790110 /* HomeContainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContainers.swift; sourceTree = "<group>"; };
 		E2FD15C628197B3100790110 /* Resolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
 		E2FD15C828197B3C00790110 /* Resolver+Registering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Resolver+Registering.swift"; sourceTree = "<group>"; };
+		E2FD15CB28197C7F00790110 /* RepositoriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesPresenter.swift; sourceTree = "<group>"; };
+		E2FD15CD28197C8600790110 /* RepositoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesVC.swift; sourceTree = "<group>"; };
+		E2FD15CF28197C8C00790110 /* RepositoriesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoriesVC.xib; sourceTree = "<group>"; };
+		E2FD15D328197D0B00790110 /* ReposContainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposContainers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,15 +149,10 @@
 		E2FD1554281973BD00790110 /* Robusta-Tech-Task */ = {
 			isa = PBXGroup;
 			children = (
+				E2FD15D528197D1B00790110 /* Resources */,
+				E2FD15D128197CA200790110 /* AppDelegates */,
 				E2FD15982819789000790110 /* Scenes */,
 				E2FD1585281974E100790110 /* Core */,
-				E2FD1555281973BD00790110 /* AppDelegate.swift */,
-				E2FD1557281973BD00790110 /* SceneDelegate.swift */,
-				E2FD1559281973BD00790110 /* ViewController.swift */,
-				E2FD155B281973BD00790110 /* Main.storyboard */,
-				E2FD155E281973BF00790110 /* Assets.xcassets */,
-				E2FD1560281973BF00790110 /* LaunchScreen.storyboard */,
-				E2FD1563281973BF00790110 /* Info.plist */,
 			);
 			path = "Robusta-Tech-Task";
 			sourceTree = "<group>";
@@ -242,6 +241,7 @@
 		E2FD15982819789000790110 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E2FD15CA28197C5200790110 /* Repositories */,
 				E2FD159A281978AB00790110 /* Home */,
 				E2FD15992819789C00790110 /* Storyboards */,
 			);
@@ -351,6 +351,7 @@
 		E2FD15C228197AEA00790110 /* Containers */ = {
 			isa = PBXGroup;
 			children = (
+				E2FD15D228197CE400790110 /* Repos Details */,
 				E2FD15C328197AF500790110 /* Home */,
 			);
 			path = Containers;
@@ -362,6 +363,43 @@
 				E2FD15C428197B2800790110 /* HomeContainers.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E2FD15CA28197C5200790110 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD15CF28197C8C00790110 /* RepositoriesVC.xib */,
+				E2FD15CD28197C8600790110 /* RepositoriesVC.swift */,
+				E2FD15CB28197C7F00790110 /* RepositoriesPresenter.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E2FD15D128197CA200790110 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD1555281973BD00790110 /* AppDelegate.swift */,
+				E2FD1557281973BD00790110 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		E2FD15D228197CE400790110 /* Repos Details */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD15D328197D0B00790110 /* ReposContainers.swift */,
+			);
+			path = "Repos Details";
+			sourceTree = "<group>";
+		};
+		E2FD15D528197D1B00790110 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD1563281973BF00790110 /* Info.plist */,
+				E2FD155E281973BF00790110 /* Assets.xcassets */,
+				E2FD1560281973BF00790110 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,8 +510,8 @@
 				E2FD1562281973BF00790110 /* LaunchScreen.storyboard in Resources */,
 				E2FD155F281973BF00790110 /* Assets.xcassets in Resources */,
 				E2FD15A32819792700790110 /* RepositoriesCell.xib in Resources */,
+				E2FD15D028197C8C00790110 /* RepositoriesVC.xib in Resources */,
 				E2FD15A72819793900790110 /* Main.storyboard in Resources */,
-				E2FD155D281973BD00790110 /* Main.storyboard in Resources */,
 				E2FD159D2819790A00790110 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,13 +537,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FD155A281973BD00790110 /* ViewController.swift in Sources */,
+				E2FD15CE28197C8600790110 /* RepositoriesVC.swift in Sources */,
+				E2FD15D428197D0B00790110 /* ReposContainers.swift in Sources */,
 				E2FD15BD28197A8400790110 /* BasePresenter.swift in Sources */,
 				E2FD15C528197B2800790110 /* HomeContainers.swift in Sources */,
 				E2FD15BB28197A7D00790110 /* BaseVC.swift in Sources */,
 				E2FD1556281973BD00790110 /* AppDelegate.swift in Sources */,
 				E2FD15892819757100790110 /* Result.swift in Sources */,
 				E2FD15AE281979EE00790110 /* LoaderView.swift in Sources */,
+				E2FD15CC28197C7F00790110 /* RepositoriesPresenter.swift in Sources */,
 				E2FD15A12819791D00790110 /* HomePresenter.swift in Sources */,
 				E2FD158C2819759600790110 /* APIClient.swift in Sources */,
 				E2FD15B628197A0C00790110 /* UIView+Extensions.swift in Sources */,
@@ -557,14 +597,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2FD155B281973BD00790110 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2FD155C281973BD00790110 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2FD1560281973BF00790110 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -701,7 +733,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2CCS788XP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Robusta-Tech-Task/Info.plist";
+				INFOPLIST_FILE = "Robusta-Tech-Task/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -729,7 +761,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2CCS788XP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Robusta-Tech-Task/Info.plist";
+				INFOPLIST_FILE = "Robusta-Tech-Task/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
