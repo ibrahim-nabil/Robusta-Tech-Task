@@ -10,5 +10,6 @@ extension Resolver: ResolverRegistering {
     
     public static func registerAllServices() {
         registerHomeContainers()
+        registerReposContainers()
     }
 }
