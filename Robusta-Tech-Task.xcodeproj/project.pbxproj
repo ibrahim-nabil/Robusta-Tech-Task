@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2FD1556281973BD00790110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1555281973BD00790110 /* AppDelegate.swift */; };
+		E2FD1558281973BD00790110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1557281973BD00790110 /* SceneDelegate.swift */; };
+		E2FD155A281973BD00790110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1559281973BD00790110 /* ViewController.swift */; };
+		E2FD155D281973BD00790110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD155B281973BD00790110 /* Main.storyboard */; };
+		E2FD155F281973BF00790110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD155E281973BF00790110 /* Assets.xcassets */; };
+		E2FD1562281973BF00790110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD1560281973BF00790110 /* LaunchScreen.storyboard */; };
+		E2FD156D281973C000790110 /* Robusta_Tech_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */; };
+		E2FD1577281973C000790110 /* Robusta_Tech_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1576281973C000790110 /* Robusta_Tech_TaskUITests.swift */; };
+		E2FD1579281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1578281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2FD1569281973C000790110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FD154A281973BD00790110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2FD1551281973BD00790110;
+			remoteInfo = "Robusta-Tech-Task";
+		};
+		E2FD1573281973C000790110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FD154A281973BD00790110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2FD1551281973BD00790110;
+			remoteInfo = "Robusta-Tech-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2FD1552281973BD00790110 /* Robusta-Tech-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robusta-Tech-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD1555281973BD00790110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2FD1557281973BD00790110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2FD1559281973BD00790110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2FD155C281973BD00790110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2FD155E281973BF00790110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2FD1561281973BF00790110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2FD1563281973BF00790110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FD1568281973C000790110 /* Robusta-Tech-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robusta-Tech-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskTests.swift; sourceTree = "<group>"; };
+		E2FD1572281973C000790110 /* Robusta-Tech-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robusta-Tech-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FD1576281973C000790110 /* Robusta_Tech_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskUITests.swift; sourceTree = "<group>"; };
+		E2FD1578281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FD154F281973BD00790110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD1565281973C000790110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD156F281973C000790110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2FD1549281973BD00790110 = {
+			isa = PBXGroup;
+			children = (
+				E2FD1554281973BD00790110 /* Robusta-Tech-Task */,
+				E2FD156B281973C000790110 /* Robusta-Tech-TaskTests */,
+				E2FD1575281973C000790110 /* Robusta-Tech-TaskUITests */,
+				E2FD1553281973BD00790110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FD1553281973BD00790110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD1552281973BD00790110 /* Robusta-Tech-Task.app */,
+				E2FD1568281973C000790110 /* Robusta-Tech-TaskTests.xctest */,
+				E2FD1572281973C000790110 /* Robusta-Tech-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FD1554281973BD00790110 /* Robusta-Tech-Task */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD1555281973BD00790110 /* AppDelegate.swift */,
+				E2FD1557281973BD00790110 /* SceneDelegate.swift */,
+				E2FD1559281973BD00790110 /* ViewController.swift */,
+				E2FD155B281973BD00790110 /* Main.storyboard */,
+				E2FD155E281973BF00790110 /* Assets.xcassets */,
+				E2FD1560281973BF00790110 /* LaunchScreen.storyboard */,
+				E2FD1563281973BF00790110 /* Info.plist */,
+			);
+			path = "Robusta-Tech-Task";
+			sourceTree = "<group>";
+		};
+		E2FD156B281973C000790110 /* Robusta-Tech-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */,
+			);
+			path = "Robusta-Tech-TaskTests";
+			sourceTree = "<group>";
+		};
+		E2FD1575281973C000790110 /* Robusta-Tech-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD1576281973C000790110 /* Robusta_Tech_TaskUITests.swift */,
+				E2FD1578281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Robusta-Tech-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2FD1551281973BD00790110 /* Robusta-Tech-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FD157C281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-Task" */;
+			buildPhases = (
+				E2FD154E281973BD00790110 /* Sources */,
+				E2FD154F281973BD00790110 /* Frameworks */,
+				E2FD1550281973BD00790110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robusta-Tech-Task";
+			productName = "Robusta-Tech-Task";
+			productReference = E2FD1552281973BD00790110 /* Robusta-Tech-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2FD1567281973C000790110 /* Robusta-Tech-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FD157F281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskTests" */;
+			buildPhases = (
+				E2FD1564281973C000790110 /* Sources */,
+				E2FD1565281973C000790110 /* Frameworks */,
+				E2FD1566281973C000790110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FD156A281973C000790110 /* PBXTargetDependency */,
+			);
+			name = "Robusta-Tech-TaskTests";
+			productName = "Robusta-Tech-TaskTests";
+			productReference = E2FD1568281973C000790110 /* Robusta-Tech-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2FD1571281973C000790110 /* Robusta-Tech-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FD1582281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskUITests" */;
+			buildPhases = (
+				E2FD156E281973C000790110 /* Sources */,
+				E2FD156F281973C000790110 /* Frameworks */,
+				E2FD1570281973C000790110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2FD1574281973C000790110 /* PBXTargetDependency */,
+			);
+			name = "Robusta-Tech-TaskUITests";
+			productName = "Robusta-Tech-TaskUITests";
+			productReference = E2FD1572281973C000790110 /* Robusta-Tech-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FD154A281973BD00790110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E2FD1551281973BD00790110 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					E2FD1567281973C000790110 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E2FD1551281973BD00790110;
+					};
+					E2FD1571281973C000790110 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = E2FD1551281973BD00790110;
+					};
+				};
+			};
+			buildConfigurationList = E2FD154D281973BD00790110 /* Build configuration list for PBXProject "Robusta-Tech-Task" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2FD1549281973BD00790110;
+			productRefGroup = E2FD1553281973BD00790110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FD1551281973BD00790110 /* Robusta-Tech-Task */,
+				E2FD1567281973C000790110 /* Robusta-Tech-TaskTests */,
+				E2FD1571281973C000790110 /* Robusta-Tech-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2FD1550281973BD00790110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FD1562281973BF00790110 /* LaunchScreen.storyboard in Resources */,
+				E2FD155F281973BF00790110 /* Assets.xcassets in Resources */,
+				E2FD155D281973BD00790110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD1566281973C000790110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD1570281973C000790110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FD154E281973BD00790110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FD155A281973BD00790110 /* ViewController.swift in Sources */,
+				E2FD1556281973BD00790110 /* AppDelegate.swift in Sources */,
+				E2FD1558281973BD00790110 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD1564281973C000790110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FD156D281973C000790110 /* Robusta_Tech_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FD156E281973C000790110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FD1579281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift in Sources */,
+				E2FD1577281973C000790110 /* Robusta_Tech_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2FD156A281973C000790110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2FD1551281973BD00790110 /* Robusta-Tech-Task */;
+			targetProxy = E2FD1569281973C000790110 /* PBXContainerItemProxy */;
+		};
+		E2FD1574281973C000790110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2FD1551281973BD00790110 /* Robusta-Tech-Task */;
+			targetProxy = E2FD1573281973C000790110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2FD155B281973BD00790110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FD155C281973BD00790110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2FD1560281973BF00790110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FD1561281973BF00790110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2FD157A281973C000790110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2FD157B281973C000790110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FD157D281973C000790110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Robusta-Tech-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2FD157E281973C000790110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Robusta-Tech-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2FD1580281973C000790110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robusta-Tech-Task.app/Robusta-Tech-Task";
+			};
+			name = Debug;
+		};
+		E2FD1581281973C000790110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robusta-Tech-Task.app/Robusta-Tech-Task";
+			};
+			name = Release;
+		};
+		E2FD1583281973C000790110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Robusta-Tech-Task";
+			};
+			name = Debug;
+		};
+		E2FD1584281973C000790110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2CCS788XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Robusta-Tech-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FD154D281973BD00790110 /* Build configuration list for PBXProject "Robusta-Tech-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FD157A281973C000790110 /* Debug */,
+				E2FD157B281973C000790110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FD157C281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FD157D281973C000790110 /* Debug */,
+				E2FD157E281973C000790110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FD157F281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FD1580281973C000790110 /* Debug */,
+				E2FD1581281973C000790110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FD1582281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FD1583281973C000790110 /* Debug */,
+				E2FD1584281973C000790110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FD154A281973BD00790110 /* Project object */;
+}
