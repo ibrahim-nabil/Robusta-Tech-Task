@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Repositories
-struct Repositories: Codable {
+struct Repositories: Codable , Equatable{
     let id: Int?
     let name: String?
     let owner: Owner?
@@ -16,7 +16,7 @@ struct Repositories: Codable {
 }
 
 // MARK: - Owner
-struct Owner: Codable {
+struct Owner: Codable, Equatable {
     let login: String?
     let id: Int?
     let avatarURL: String?
