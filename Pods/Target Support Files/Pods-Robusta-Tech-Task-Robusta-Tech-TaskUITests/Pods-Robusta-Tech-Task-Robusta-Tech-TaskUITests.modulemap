@@ -1,0 +1,6 @@
+framework module Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests {
+  umbrella header "Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

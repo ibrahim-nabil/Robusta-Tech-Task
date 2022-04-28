@@ -7,11 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1B118AB973CB4C1F94A959 /* Pods_Robusta_Tech_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EE29FD159A944C616E9E0C /* Pods_Robusta_Tech_Task.framework */; };
+		6D9D378C4AC654C6DC50980C /* Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41E799233636EEB7361E706 /* Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework */; };
+		A3A5769F8FDD92AA2E6CBF4F /* Pods_Robusta_Tech_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82410F65E9C96FD76BDE87E8 /* Pods_Robusta_Tech_TaskTests.framework */; };
+		E20D137F2819F8040060A121 /* RepositoriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15BF28197AC000790110 /* RepositoriesUseCase.swift */; };
+		E20D13802819FCD70060A121 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD158B2819759600790110 /* APIClient.swift */; };
+		E20D13812819FCE90060A121 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1591281975F800790110 /* EndPoint.swift */; };
+		E20D13822819FCF10060A121 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15942819762C00790110 /* Repositories.swift */; };
+		E20D13832819FD0B0060A121 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD158E281975C000790110 /* APIError.swift */; };
+		E20D1388281A05560060A121 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15882819757100790110 /* Result.swift */; };
+		E20D138E281A0F430060A121 /* TestHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D138D281A0F430060A121 /* TestHomePresenter.swift */; };
+		E20D1391281A10CB0060A121 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15A02819791D00790110 /* HomePresenter.swift */; };
+		E20D1392281A12830060A121 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15BA28197A7D00790110 /* BaseVC.swift */; };
+		E20D1394281A147C0060A121 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15BC28197A8400790110 /* BasePresenter.swift */; };
+		E20D1395281A14C20060A121 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15AD281979EE00790110 /* LoaderView.swift */; };
+		E20D139A281A153E0060A121 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15AB281979D200790110 /* UITableView+Extension.swift */; };
+		E20D139C281A15800060A121 /* RepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15CB28197C7F00790110 /* RepositoriesPresenter.swift */; };
+		E20D139D281A15970060A121 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15B1281979FF00790110 /* NSObject+Extension.swift */; };
+		E20D13A1281A16230060A121 /* GeneratedMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D13A0281A16230060A121 /* GeneratedMocks.swift */; };
+		E20D13A2281A19000060A121 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C628197B3100790110 /* Resolver.swift */; };
+		E20D13A3281A19050060A121 /* Resolver+Registering.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C828197B3C00790110 /* Resolver+Registering.swift */; };
+		E20D13A4281A190B0060A121 /* HomeContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15C428197B2800790110 /* HomeContainers.swift */; };
+		E20D13A5281A19130060A121 /* ReposContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15D328197D0B00790110 /* ReposContainers.swift */; };
+		E20D13A7281A192C0060A121 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD159E2819791500790110 /* HomeViewController.swift */; };
+		E20D13AB281A1E3C0060A121 /* TestRepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D13AA281A1E3C0060A121 /* TestRepositoriesPresenter.swift */; };
+		E20D13AC281A20440060A121 /* RepositoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15A42819792E00790110 /* RepositoriesCell.swift */; };
+		E20D13AD281A20540060A121 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15B528197A0C00790110 /* UIView+Extensions.swift */; };
+		E20D13AE281A205C0060A121 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15B328197A0500790110 /* UIImage+Extensions.swift */; };
+		E20D13AF281A22660060A121 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15CD28197C8600790110 /* RepositoriesVC.swift */; };
 		E2FD1556281973BD00790110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1555281973BD00790110 /* AppDelegate.swift */; };
 		E2FD1558281973BD00790110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1557281973BD00790110 /* SceneDelegate.swift */; };
 		E2FD155F281973BF00790110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD155E281973BF00790110 /* Assets.xcassets */; };
 		E2FD1562281973BF00790110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FD1560281973BF00790110 /* LaunchScreen.storyboard */; };
-		E2FD156D281973C000790110 /* Robusta_Tech_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */; };
 		E2FD1577281973C000790110 /* Robusta_Tech_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1576281973C000790110 /* Robusta_Tech_TaskUITests.swift */; };
 		E2FD1579281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD1578281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift */; };
 		E2FD15892819757100790110 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15882819757100790110 /* Result.swift */; };
@@ -41,6 +68,7 @@
 		E2FD15CE28197C8600790110 /* RepositoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15CD28197C8600790110 /* RepositoriesVC.swift */; };
 		E2FD15D028197C8C00790110 /* RepositoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2FD15CF28197C8C00790110 /* RepositoriesVC.xib */; };
 		E2FD15D428197D0B00790110 /* ReposContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15D328197D0B00790110 /* ReposContainers.swift */; };
+		E2FD15EA28198A6100790110 /* TestRepositoriesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD15E928198A6100790110 /* TestRepositoriesUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +89,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B6E8ABBEEC2798D9DCA7F5 /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests/Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15EE29FD159A944C616E9E0C /* Pods_Robusta_Tech_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robusta_Tech_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		195E3363C3710223AB3C7A29 /* Pods-Robusta-Tech-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-TaskTests/Pods-Robusta-Tech-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FDAF9283674F19A720A20AF /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests/Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82410F65E9C96FD76BDE87E8 /* Pods_Robusta_Tech_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robusta_Tech_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BED5D861D44354875AFD66C /* Pods-Robusta-Tech-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-Task.release.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-Task/Pods-Robusta-Tech-Task.release.xcconfig"; sourceTree = "<group>"; };
+		BD8C6F6221CD2EAE82624C38 /* Pods-Robusta-Tech-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-Task.debug.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-Task/Pods-Robusta-Tech-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D60F63029E866630C7D659 /* Pods-Robusta-Tech-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Robusta-Tech-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Robusta-Tech-TaskTests/Pods-Robusta-Tech-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E20D138D281A0F430060A121 /* TestHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHomePresenter.swift; sourceTree = "<group>"; };
+		E20D13A0281A16230060A121 /* GeneratedMocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedMocks.swift; sourceTree = "<group>"; };
+		E20D13AA281A1E3C0060A121 /* TestRepositoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepositoriesPresenter.swift; sourceTree = "<group>"; };
 		E2FD1552281973BD00790110 /* Robusta-Tech-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robusta-Tech-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FD1555281973BD00790110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FD1557281973BD00790110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +107,6 @@
 		E2FD1561281973BF00790110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2FD1563281973BF00790110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2FD1568281973C000790110 /* Robusta-Tech-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robusta-Tech-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskTests.swift; sourceTree = "<group>"; };
 		E2FD1572281973C000790110 /* Robusta-Tech-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robusta-Tech-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FD1576281973C000790110 /* Robusta_Tech_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskUITests.swift; sourceTree = "<group>"; };
 		E2FD1578281973C000790110 /* Robusta_Tech_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robusta_Tech_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -99,6 +137,8 @@
 		E2FD15CD28197C8600790110 /* RepositoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoriesVC.swift; sourceTree = "<group>"; };
 		E2FD15CF28197C8C00790110 /* RepositoriesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepositoriesVC.xib; sourceTree = "<group>"; };
 		E2FD15D328197D0B00790110 /* ReposContainers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposContainers.swift; sourceTree = "<group>"; };
+		E2FD15E928198A6100790110 /* TestRepositoriesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepositoriesUseCase.swift; sourceTree = "<group>"; };
+		F41E799233636EEB7361E706 /* Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1B118AB973CB4C1F94A959 /* Pods_Robusta_Tech_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A5769F8FDD92AA2E6CBF4F /* Pods_Robusta_Tech_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +162,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9D378C4AC654C6DC50980C /* Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		063B08F848B7DB06748FAA77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15EE29FD159A944C616E9E0C /* Pods_Robusta_Tech_Task.framework */,
+				F41E799233636EEB7361E706 /* Pods_Robusta_Tech_Task_Robusta_Tech_TaskUITests.framework */,
+				82410F65E9C96FD76BDE87E8 /* Pods_Robusta_Tech_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5224C2FCC5BA98978B223A38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD8C6F6221CD2EAE82624C38 /* Pods-Robusta-Tech-Task.debug.xcconfig */,
+				8BED5D861D44354875AFD66C /* Pods-Robusta-Tech-Task.release.xcconfig */,
+				1FDAF9283674F19A720A20AF /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.debug.xcconfig */,
+				04B6E8ABBEEC2798D9DCA7F5 /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.release.xcconfig */,
+				D5D60F63029E866630C7D659 /* Pods-Robusta-Tech-TaskTests.debug.xcconfig */,
+				195E3363C3710223AB3C7A29 /* Pods-Robusta-Tech-TaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E20D138B281A0EC80060A121 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E20D13A9281A1DBE0060A121 /* Repositories */,
+				E20D138C281A0ED90060A121 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E20D138C281A0ED90060A121 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E20D138D281A0F430060A121 /* TestHomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E20D13A9281A1DBE0060A121 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E20D13AA281A1E3C0060A121 /* TestRepositoriesPresenter.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 		E2FD1549281973BD00790110 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +224,8 @@
 				E2FD156B281973C000790110 /* Robusta-Tech-TaskTests */,
 				E2FD1575281973C000790110 /* Robusta-Tech-TaskUITests */,
 				E2FD1553281973BD00790110 /* Products */,
+				5224C2FCC5BA98978B223A38 /* Pods */,
+				063B08F848B7DB06748FAA77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,7 +253,9 @@
 		E2FD156B281973C000790110 /* Robusta-Tech-TaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				E2FD156C281973C000790110 /* Robusta_Tech_TaskTests.swift */,
+				E20D138B281A0EC80060A121 /* Scenes */,
+				E2FD15E728198A3A00790110 /* Core */,
+				E2FD15E328198A0300790110 /* Main */,
 			);
 			path = "Robusta-Tech-TaskTests";
 			sourceTree = "<group>";
@@ -192,7 +287,7 @@
 				E2FD15932819761100790110 /* Models */,
 				E2FD1590281975E800790110 /* Request */,
 				E2FD158D281975B200790110 /* Errors */,
-				E2FD158A2819758800790110 /* API Client */,
+				E2FD158A2819758800790110 /* APIClient */,
 				E2FD1587281974FD00790110 /* Response */,
 			);
 			path = Network;
@@ -206,12 +301,12 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
-		E2FD158A2819758800790110 /* API Client */ = {
+		E2FD158A2819758800790110 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
 				E2FD158B2819759600790110 /* APIClient.swift */,
 			);
-			path = "API Client";
+			path = APIClient;
 			sourceTree = "<group>";
 		};
 		E2FD158D281975B200790110 /* Errors */ = {
@@ -402,6 +497,30 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		E2FD15E328198A0300790110 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E20D13A0281A16230060A121 /* GeneratedMocks.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E2FD15E728198A3A00790110 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD15E828198A4500790110 /* UseCase */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E2FD15E828198A4500790110 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E2FD15E928198A6100790110 /* TestRepositoriesUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -409,6 +528,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FD157C281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-Task" */;
 			buildPhases = (
+				1B0E7F7D159D4FF09CE10FA6 /* [CP] Check Pods Manifest.lock */,
 				E2FD154E281973BD00790110 /* Sources */,
 				E2FD154F281973BD00790110 /* Frameworks */,
 				E2FD1550281973BD00790110 /* Resources */,
@@ -426,9 +546,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FD157F281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskTests" */;
 			buildPhases = (
+				A96068AFD776F2D94A460B77 /* [CP] Check Pods Manifest.lock */,
+				E2FD15DF2819894B00790110 /* Cuckoo */,
 				E2FD1564281973C000790110 /* Sources */,
 				E2FD1565281973C000790110 /* Frameworks */,
 				E2FD1566281973C000790110 /* Resources */,
+				905B24BA6CC7455E82A4BF62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -444,6 +567,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FD1582281973C000790110 /* Build configuration list for PBXNativeTarget "Robusta-Tech-TaskUITests" */;
 			buildPhases = (
+				A23EC74941127993E335D3AA /* [CP] Check Pods Manifest.lock */,
 				E2FD156E281973C000790110 /* Sources */,
 				E2FD156F281973C000790110 /* Frameworks */,
 				E2FD1570281973C000790110 /* Resources */,
@@ -473,6 +597,7 @@
 					};
 					E2FD1567281973C000790110 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 						TestTargetID = E2FD1551281973BD00790110;
 					};
 					E2FD1571281973C000790110 = {
@@ -532,6 +657,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B0E7F7D159D4FF09CE10FA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robusta-Tech-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		905B24BA6CC7455E82A4BF62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Robusta-Tech-TaskTests/Pods-Robusta-Tech-TaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Robusta-Tech-TaskTests/Pods-Robusta-Tech-TaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Robusta-Tech-TaskTests/Pods-Robusta-Tech-TaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23EC74941127993E335D3AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96068AFD776F2D94A460B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Robusta-Tech-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FD15DF2819894B00790110 /* Cuckoo */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Cuckoo;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $ACTION == \"indexbuild\" ]; then\n  echo \"Not running Cuckoo generator during indexing.\"\n  exit 0 \nfi\n\n# Skip for preview builds\nif [ \"${ENABLE_PREVIEWS}\" = \"YES\" ]; then\n  echo \"Not running Cuckoo generator during preview builds.\"\n  exit 0\nfi\n\n# Define output file. Change \"${PROJECT_DIR}/${PROJECT_NAME}Tests\" to your test's root source folder, if it's not the default name.\nOUTPUT_FILE=\"${PROJECT_DIR}/${PROJECT_NAME}Tests/Main/GeneratedMocks.swift\"\necho \"Generated Mocks File = ${OUTPUT_FILE}\"\n\n# Define input directory. Change \"${PROJECT_DIR}/${PROJECT_NAME}\" to your project's root source folder, if it's not the default name.\nINPUT_DIR=\"${PROJECT_DIR}/${PROJECT_NAME}\"\necho \"Mocks Input Directory = ${INPUT_DIR}\"\n\n# Generate mock files, include as many input files as you'd like to create mocks for.\n\"${PODS_ROOT}/Cuckoo/run\" generate --testable \"${PROJECT_NAME}\" \\\n--output \"${OUTPUT_FILE}\" \\\n\"${INPUT_DIR}/Core/Network/APIClient/APIClient.swift\" \\\n\"${INPUT_DIR}/Core/UseCase/RepositoriesUseCase.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2FD154E281973BD00790110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -568,7 +797,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2FD156D281973C000790110 /* Robusta_Tech_TaskTests.swift in Sources */,
+				E20D13AB281A1E3C0060A121 /* TestRepositoriesPresenter.swift in Sources */,
+				E2FD15EA28198A6100790110 /* TestRepositoriesUseCase.swift in Sources */,
+				E20D13AD281A20540060A121 /* UIView+Extensions.swift in Sources */,
+				E20D1392281A12830060A121 /* BaseVC.swift in Sources */,
+				E20D139A281A153E0060A121 /* UITableView+Extension.swift in Sources */,
+				E20D137F2819F8040060A121 /* RepositoriesUseCase.swift in Sources */,
+				E20D13A2281A19000060A121 /* Resolver.swift in Sources */,
+				E20D1395281A14C20060A121 /* LoaderView.swift in Sources */,
+				E20D139C281A15800060A121 /* RepositoriesPresenter.swift in Sources */,
+				E20D13812819FCE90060A121 /* EndPoint.swift in Sources */,
+				E20D13A3281A19050060A121 /* Resolver+Registering.swift in Sources */,
+				E20D1391281A10CB0060A121 /* HomePresenter.swift in Sources */,
+				E20D13A7281A192C0060A121 /* HomeViewController.swift in Sources */,
+				E20D13A1281A16230060A121 /* GeneratedMocks.swift in Sources */,
+				E20D13AF281A22660060A121 /* RepositoriesVC.swift in Sources */,
+				E20D13802819FCD70060A121 /* APIClient.swift in Sources */,
+				E20D1394281A147C0060A121 /* BasePresenter.swift in Sources */,
+				E20D139D281A15970060A121 /* NSObject+Extension.swift in Sources */,
+				E20D13822819FCF10060A121 /* Repositories.swift in Sources */,
+				E20D13AC281A20440060A121 /* RepositoriesCell.swift in Sources */,
+				E20D1388281A05560060A121 /* Result.swift in Sources */,
+				E20D13832819FD0B0060A121 /* APIError.swift in Sources */,
+				E20D13A5281A19130060A121 /* ReposContainers.swift in Sources */,
+				E20D13AE281A205C0060A121 /* UIImage+Extensions.swift in Sources */,
+				E20D138E281A0F430060A121 /* TestHomePresenter.swift in Sources */,
+				E20D13A4281A190B0060A121 /* HomeContainers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +980,7 @@
 		};
 		E2FD157D281973C000790110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8C6F6221CD2EAE82624C38 /* Pods-Robusta-Tech-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -754,6 +1009,7 @@
 		};
 		E2FD157E281973C000790110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BED5D861D44354875AFD66C /* Pods-Robusta-Tech-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -782,18 +1038,26 @@
 		};
 		E2FD1580281973C000790110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D60F63029E866630C7D659 /* Pods-Robusta-Tech-TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2CCS788XP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robusta-Tech-Task.app/Robusta-Tech-Task";
@@ -802,14 +1066,21 @@
 		};
 		E2FD1581281973C000790110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195E3363C3710223AB3C7A29 /* Pods-Robusta-Tech-TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = C2CCS788XP;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Robusta.Robusta-Tech-TaskTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -822,6 +1093,7 @@
 		};
 		E2FD1583281973C000790110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDAF9283674F19A720A20AF /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -840,6 +1112,7 @@
 		};
 		E2FD1584281973C000790110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B6E8ABBEEC2798D9DCA7F5 /* Pods-Robusta-Tech-Task-Robusta-Tech-TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

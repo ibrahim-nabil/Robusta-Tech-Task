@@ -7,7 +7,7 @@
 
 import Foundation
 class RepositoriesUseCase: APIClient {
-    let session: URLSession
+    var session: URLSession
      init(configuration: URLSessionConfiguration) {
          self.session = URLSession(configuration: configuration)
      }
